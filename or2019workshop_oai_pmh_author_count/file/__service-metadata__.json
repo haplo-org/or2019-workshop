@@ -1,0 +1,14 @@
+{
+    "or2019workshop:author-count:write-store-object-below-xml-cursor": {
+        "statements": [
+            "conforms-to hres:write-store-object-below-xml-cursor",
+            "hres:oai-pmh:exposed-metadata-format"
+        ],
+        "metadata": {
+            "hres:oai-pmh:metadata-prefix":     "author_count",
+            "hres:oai-pmh:schema":              "http://example.org/author_count.xsd",
+            "hres:oai-pmh:metadata-namespace":  "http://example.org/author_count",
+            "hres:oai-pmh:root-element":        "author-count"
+        }
+    }
+}

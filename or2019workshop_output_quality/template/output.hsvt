@@ -1,0 +1,15 @@
+pageTitle("Quality: " object.title)
+backLink(std:object:url(object))
+
+std:object(object "linkedheading")
+
+<p> "Outputs must contain the words 'very good' in the title to pass the quality checks." </p>
+
+<p>
+  "The output " <i> object.title </i> " "
+  if(good) {
+    "contains these words, and so is a good output."
+  } else {
+    "does not contain these words, and so is suspect. Consider adding them."
+  }
+</p>

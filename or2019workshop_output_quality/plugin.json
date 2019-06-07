@@ -1,0 +1,12 @@
+{
+  "pluginName": "or2019workshop_output_quality",
+  "pluginAuthor": "Haplo Services",
+  "pluginVersion": 1,
+  "displayName": "Output Quality Check",
+  "displayDescription": "Check that abstracts are really good",
+  "apiVersion": 4,
+  "load": [
+      "js/or2019workshop_output_quality.js"
+    ],
+  "respond": ["/do/or2019workshop-output-quality"]
+}

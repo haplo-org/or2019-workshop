@@ -1,0 +1,11 @@
+{
+  "pluginName": "or2019workshop_oai_pmh_author_count",
+  "pluginAuthor": "Haplo Services",
+  "pluginVersion": 1,
+  "displayName": "OAI-PMH Author Count",
+  "displayDescription": "Add author count metadata to OAI-PMH server",
+  "apiVersion": 4,
+  "load": [
+      "js/or2019workshop_oai_pmh_author_count.js"
+    ]
+}
