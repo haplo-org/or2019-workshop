@@ -12,6 +12,6 @@ P.implementService("or2019workshop:author-count:write-store-object-below-xml-cur
             text(item.title).
         up().
         element("count").
-            text(item.every(A.Author).length).
+            text(item.every(A.AuthorsCitation).length).
         up();
 });

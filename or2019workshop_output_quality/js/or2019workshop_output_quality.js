@@ -3,7 +3,7 @@ var isGood = function(object) {
     return -1 !== object.title.toLowerCase().indexOf("very good");
 };
 
-P.implementService("std:action_panel:output", function(display, builder) {
+P.implementService("std:action_panel:category:hres:repository_item", function(display, builder) {
     let good = isGood(display.object);
     let panel = builder.panel(444);
     panel.element(0, {title:"Output Quality"});
